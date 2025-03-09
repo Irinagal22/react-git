@@ -26,7 +26,7 @@ function App() {
       <div>{counter}</div>
       <button onClick={plusCounter}>Прибавить единицу</button>
       <button onClick={minusCounter}>Убавить единицу</button>
-      <div>{warning}</div>
+      <div className="warning">{warning}</div>
     </div>
   )
 }
